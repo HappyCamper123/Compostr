@@ -1,34 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './Header';
-import Temperature from './Temperature';
-import Test from './Test';
-import Image from './Image';
+import Footer from './Footer';
 
 import '../styles/App.css';
-// import '../styles/Logo.css';
+import CompostData from './CompostData';
+import Benefits from './Benefits';
+import CompostGraphs from './CompostGraphs';
+import GettingStarted from './GettingStarted';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = props;
-  }
-
-  render() {
-    return (
-      <div className="app">
-        <Header />
-        <div className="column">
-          <Test />
-        </div>
-        <div className="column">
-          <Temperature />
-        </div>
-        <div className="footer">
-          <Image />
-        </div>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default () => (
+  <div className="app">
+    <Header />
+    <hr className="separator" />
+    <Benefits />
+    <hr className="separator" />
+    <GettingStarted />
+    <hr className="separator" />
+    <CompostData />
+    <CompostGraphs />
+    <div>
+      <Footer />
+    </div>
+  </div>
+);

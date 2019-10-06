@@ -1,3 +1,3 @@
-# Base React
+# Compostr
 
-This is a basic react project that will be the base for future projects.
+A really cool front end react application that shows compost temperature and humidity data.
