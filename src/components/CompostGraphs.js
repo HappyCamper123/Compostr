@@ -9,7 +9,7 @@ import CompostDataApi from '../services/CompostDataApi';
 
 
 export default () => {
-  const compostData = CompostDataApi(60);
+  const compostData = CompostDataApi(60).reverse();
 
   return (
     <Grid columns={3} centered>
