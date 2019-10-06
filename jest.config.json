@@ -1,0 +1,12 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "jsx"
+  ],
+  "setupFilesAfterEnv": [
+    "<rootDir>enzyme.config.js"
+  ],
+  "clearMocks": true,
+  "coverageDirectory": "reports"
+}

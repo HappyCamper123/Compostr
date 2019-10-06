@@ -1,0 +1,79 @@
+/* image sizing*/
+.app {
+  background-color: #F1F1F1;
+  font-size: 35px;
+  padding: 20px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+}
+
+.font {
+  font-size: 55px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+}
+
+.tempFont {
+  background-color: #CD533B;
+  font-size: 40px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+
+}
+
+.humFont {
+  background-color: #1DD3B0;
+  font-size: 40px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+
+}
+
+
+.p1font {
+  font-size: 20px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+}
+
+.descriptionFont {
+  font-size: 30px;
+  font-family: "Gill Sans", Times, serif;
+  text-align: center
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+
+.footer {
+  background-color: #B2FF9E;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Snell Roundhand", Times, cursive;
+  padding: 10px;
+}
+
+/*Making three columns*/
+/* Create three equal columns that floats next to each other */
+.column {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
